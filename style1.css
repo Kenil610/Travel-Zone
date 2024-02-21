@@ -1,0 +1,250 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 50px;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #ffc107;
+}
+
+nav li {
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.45);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.225);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.nav-link.active {
+    color: orange;
+    /* Change the color as desired */
+    font-weight: bold;
+    /* Optionally add styling */
+}
+
+.main-img {
+    width: 100%;
+    height: 679px;
+    background-image: url("photos1/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-bar {
+    display: flex;
+    background-color: transparent;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.back {
+    padding-top: 120px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.content {
+    padding-top: 80px;
+    height: 450px;
+    width: 650px;
+    background-color: white;
+}
+
+h5 {
+    color: #ffc107;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.content p {
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .back {
+        padding-top: 20%;
+    }
+
+    .content {
+        padding-top: 50px;
+        width: 90%;
+        max-width: 90%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .content h1 {
+        font-size: 42px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+}
+
+.main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+.main h2 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 17px;
+}
+
+.tour1,
+.tour2 {
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.card-1 {
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-1 .details {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    padding-top: 200px;
+    padding-left: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.card-1 img {
+    width: 10%;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+}
+
+.card-1:hover img {
+    transform: scale(1.1);
+}
+
+.footer {
+    color: white;
+}
+
+.footer .link {
+    display: flex;
+}
+
+.footer .links {
+    display: inline;
+}
+
+/*---------------------------------------package----------------------------------------------*/
+
+.pac-main {
+    width: 100%;
+    height: 320px;
+    background-image: url("photos1/img14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.black {
+    width: 100%;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-items: center;
+}
+
+#title {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.package {
+    color: black;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/*---------------------------------------about----------------------------------------------*/
+
+.about-main {
+    width: 100%;
+    height: 320px;
+    background-image: url("photos1/img19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------------book----------------------------------------------*/
+
+.book-main {
+    width: 100%;
+    height: 320px;
+    background-image: url("photos1/img11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    padding-top: 10px;
+}
